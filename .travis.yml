@@ -5,7 +5,7 @@ node_js:
 - '0.12'
 notifications:
   email:
-  - arnab@binary.com
+  - supinyo@gmail.com
 branches:
   only:
   - master
@@ -15,8 +15,8 @@ script:
 - npm install -g bower
 - npm install
 - bower install
-- git config --global user.email "arnab@binary.com"
-- git config --global user.name "Arnab Karmakar"
+- git config --global user.email "supinyo@gmail.com"
+- git config --global user.name "Supinyo Meesompach"
 - grunt default if:live if:beta
 env:
   global:
