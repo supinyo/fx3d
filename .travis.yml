@@ -16,7 +16,7 @@ script:
 - npm install
 - bower install
 - git config --global user.email "supinyo@gmail.com"
-- git config --global user.name "Supinyo Meesompach"
+- git config --global user.name "Supinyo M."
 - grunt default if:live if:beta
 env:
   global:
